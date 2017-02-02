@@ -1,0 +1,7 @@
+[03-Mar-2015 22:03:58 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3
+[06-Mar-2015 21:29:18 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3
+[27-Apr-2015 19:28:58 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3
+[28-Apr-2015 00:46:49 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3
+[28-Apr-2015 07:03:05 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3
+[28-Apr-2015 13:17:30 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3
+[29-Apr-2015 06:32:11 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/navstuit/public_html/wp-content/plugins/smart-forms/widgets/smart-form-widget.php on line 3

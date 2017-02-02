@@ -1,0 +1,53 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Resolved some layout related bugs
+
+Version 1.2
+i) Removed all shortcodes
+
+Version 1.2.1
+i) Copyright bug in footer solved
+
+Version 1.3
+i) Tweaked this theme as per WordPress coding standards.
+
+Version 1.3.1
+i) Removed any traces of shortcodes.
+
+
+Version 1.3.2
+i) Loaded the sections script only in theme options and applied proper license for Pixabay images used.
+
+
+Version 1.3.3
+i) Added copyright info within style.css.
+
+Version 1.3.4
+i) Some bug fixes as suggested by reviewer.
+
+
+Version 1.3.5
+i) Some bug fixes for sections and their appearance on navigation.
+
+Version 1.3.6
+i) Numerous changes as asked by reviewer.
+
+Version 1.3.7
+i) Numerous changes as asked by reviewer.
+
+Version 1.3.8
+i) Fixed bugs as pointed by reviewer.
+
+Version 1.3.9
+i) Fixed theme url slug for admin bar settings.
+
+Version 1.4
+i) Options framework updated.
+
+Version 1.4.1
+i) Theme options data migration from old version to new version solved.
+
+Version 1.5
+i) Slider title, inner page slider hide fixed.

@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpthemes.co.nz - framework\n"
+"POT-Creation-Date: 2014-01-31 21:58+0800\n"
+"PO-Revision-Date: 2014-01-31 21:59+0800\n"
+"Last-Translator: ed cardinal <lizardking67@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\framework\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/404.php:9
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/404.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/404.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/search.php:49
+msgid "Most Used Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/404.php:27
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/search.php:57
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/archive.php:15
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/archive.php:17
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/archive.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:117
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/sidebar.php:38
+msgid "Archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/archive.php:50
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/author.php:58
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/category.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/index.php:34
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/search.php:37
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/tag.php:50
+msgid "Nothing Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/archive.php:54
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/author.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/category.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/index.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/tag.php:54
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/author.php:20
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/category.php:11
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-aside.php:13
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:56
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-image.php:8
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-aside.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:71
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-image.php:9
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-page.php:9
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:13
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:25
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:78
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-aside.php:22
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:102
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-image.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:55
+msgid "Leave a comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-aside.php:22
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:102
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-image.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:55
+msgid "1 Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-aside.php:22
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:102
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-image.php:16
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:55
+msgid "% Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-aside.php:24
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:106
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-image.php:18
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-page.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:59
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:26
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:92
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:80
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:91
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:44
+msgid ", "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:84
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:37
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-gallery.php:95
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content.php:48
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:27
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
+"to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:29
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:35
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/content-single.php:37
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:11
+msgid "&copy; "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:13
+msgid "- Powered by "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:13
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:13
+msgid "WordPress"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:14
+msgid " and "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:14
+msgid "http://wpdevshed.com/"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/footer.php:14
+msgid "WP Dev Shed"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:114
+msgid "Category"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:115
+msgid "Tag"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:116
+msgid "Author"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:122
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:126
+msgid "Page "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:184
+msgid "Sidebar Right"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:203
+msgid "Post navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:213
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:217
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:239
+msgid "Pingback:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:239
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:258
+msgid "(Edit)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:249
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:256
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:265
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:286
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></"
+"a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:292
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:379
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:380
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/functions.php:395
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/sidebar.php:29
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/sidebar.php:56
+msgid "Untitled"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/header.php:30
+msgid "Main menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:16
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s"
+"\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">"
+"%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:30
+msgid "&larr; Previous"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:31
+msgid "Next &rarr;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:84
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:86
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:88
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/image.php:90
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/search.php:41
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/search.php:44
+msgid "Or you can try these links below."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/sidebar.php:11
+msgid "Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/sidebar.php:21
+msgid "Latest Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/sidebar.php:45
+msgid "Popular Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\framework/tag.php:11
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""

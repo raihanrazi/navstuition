@@ -1,0 +1,4 @@
+[18-May-2015 19:59:57 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/navstuit/public_html/wp-content/plugins/smart-forms/filter_listeners/fixed-field-listeners.php on line 2
+[19-May-2015 03:31:37 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/navstuit/public_html/wp-content/plugins/smart-forms/filter_listeners/fixed-field-listeners.php on line 2
+[19-May-2015 08:54:49 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/navstuit/public_html/wp-content/plugins/smart-forms/filter_listeners/fixed-field-listeners.php on line 2
+[19-May-2015 15:28:02 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/navstuit/public_html/wp-content/plugins/smart-forms/filter_listeners/fixed-field-listeners.php on line 2

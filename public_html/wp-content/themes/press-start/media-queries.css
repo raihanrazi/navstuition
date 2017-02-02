@@ -1,0 +1,269 @@
+/**
+ * Media Queries CSS
+******************************************/
+
+/*****************************************
+ * TABLE OF CONTENTS:
+ * 
+ * #00 - VIEWPORT FIX
+ * #01 - LAYOUTS       (max-width: 1100px)
+ *                     (max-width: 1000px)
+ * #02 - MENU          (max-width:  700px)
+ * #03 - ENTRY         (max-width:  450px)
+ * #04 - COMMENTS      (max-width:  700px)
+ * #05 - RESIZE        (max-width:  700px)
+ * 
+******************************************/
+
+/* Make Responsive */
+.header-wrap{
+	max-width: 95%;
+}
+.menu-container{
+	max-width: 95%;
+}
+#main{
+	max-width: 95%;
+}
+
+
+/* === #00 - VIEWPORT FIX === 
+ * Does the same thing as <meta name="viewport" content="width=device-width">
+ * for Windows 8 "Snapped" views in IE10+
+ * @link http://core.trac.wordpress.org/ticket/25888
+ * @link http://blog.teamtreehouse.com/thinking-ahead-css-device-adaptation-with-viewport
+ */
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+
+/* === #01 - LAYOUTS === */
+
+/* Remove Content Padding */
+@media screen and (max-width: 1100px){
+	.wordpress #content{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+/* Push primary sidebar to bottom */
+@media screen and (max-width: 1000px){
+	.wordpress .main-wrap{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.wordpress #sidebar-primary-wrap{
+		margin-right: 0;
+		margin-left: 0;
+		float: left;
+		width: 100%;
+		max-width: 400px;
+	}
+	.wordpress #sidebar-primary-wrap .widget{
+	}
+}
+
+
+/* === #02 - MENU === */
+
+@media screen and (max-width: 700px){
+
+	.menu-toggle .screen-reader-text{
+	}
+	#menu-toggle-primary{
+		display: block;
+		float: left;
+		padding: 11px 5px 17px 14px;
+		padding: 1.1rem 0.5rem 1.7rem 1.4rem;
+	}
+	#menu-toggle-primary a{
+		float: left;
+		padding: 5px;
+		padding: 0.5rem;
+		padding-left: 0;
+		margin: 0;
+		box-shadow: 0 2px 0 #06400D;
+	}
+	#menu-toggle-primary a:hover{
+		color: #fff;
+	}
+	#menu-toggle-primary.menu-toggle-active a,
+	#header #menu-toggle-primary a:focus{
+		top: 2px;
+		box-shadow: 0 0;
+	}
+
+	#menu-toggle-primary a:before{
+		content: "\f333";
+		font-family: "dashicons";
+		vertical-align: top;
+		margin-left: 5px;
+		margin-left: 0.5rem;
+		font-size: 1.4em;
+		-webkit-font-smoothing: antialiased;
+	}
+	#site-title a:before{
+		content: "";
+	}
+	#site-title {
+		margin-left: 5px;
+		margin-left: 0.5rem;
+		padding-left: 0;
+	}
+	#header{
+		border-bottom: 10px solid #2b2b2b;
+		border-bottom: 1rem solid #2b2b2b;
+	}
+	#menu-primary{
+		margin-bottom: 0;
+		border-bottom: none;
+		background: transparent;
+	}
+	.menu-dropdown{
+		display: none;
+		border-right: 1px solid #2b2b2b;
+	}
+	#menu-primary .menu-open{
+		display: block;
+	}
+	/* Clear Dropdown */
+	.menu-dropdown:after{
+		content:".";display:block;height:0;clear:both;visibility:hidden;
+	}
+	.menu-dropdown > .wrap{
+		display: block;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	/* Level Deep */
+	.menu-dropdown .sub-menu .menu-item-open-children > a:before, .menu-dropdown .sub-menu .menu-item-has-children > a:before{
+		content: "";
+	}
+
+	/* Has Children Position Fix */
+	.menu-dropdown ul li.menu-item-open-children > a:before,
+	.menu-dropdown ul li.menu-item-has-children > a:before{
+		position: inherit;
+		right: auto;
+	}
+
+	/* Mobile Menu Style */
+	.menu-dropdown li{
+		display: block;
+		width: 100%;
+	}
+	#menu-primary .menu-dropdown .sub-menu{
+		width: 100%;
+		border: none;
+		margin: 0;
+		border: none;
+	}
+	#menu-primary li a:hover{
+		background: #0ba81b;
+	}
+	.menu-dropdown li a,
+	.menu-dropdown .sub-menu li a{
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid #2b2b2b;
+		background: #12B924;
+	}
+	.menu-dropdown .sub-menu li a{
+		background: #12B924;
+	}
+	.menu-dropdown .sub-menu li:hover > .sub-menu,
+	.menu-dropdown .sub-menu li:focus > .sub-menu,
+	.menu-dropdown .sub-menu li.focus > .sub-menu,
+	.menu-dropdown li:hover > .sub-menu,
+	.menu-dropdown li:focus > .sub-menu,
+	.menu-dropdown li.focus > .sub-menu,
+	.menu-dropdown .sub-menu{
+		opacity: 1;
+		left: auto;
+		top: auto;
+		position: inherit;
+	}
+	.menu-dropdown .sub-menu .sub-menu,
+	.menu-dropdown .sub-menu .sub-menu{
+	}
+	.menu-dropdown .sub-menu .sub-menu{
+	}
+	.menu-dropdown ul li.menu-item-open-children > a:before,
+	.menu-dropdown ul li.menu-item-has-children > a:before{
+		content: "";
+	}
+	/* .sub-menu .sub-menu */
+	.menu-dropdown .sub-menu .sub-menu li a:before{
+		content:"\f460 ";
+		font-family: 'dashicons';
+		vertical-align: top;
+		padding: 0;
+		margin-right: 5px;
+		margin-right: 0.5rem;
+		float: none;
+		-webkit-font-smoothing: antialiased;
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 \f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 \f460 \f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 \f460 \f460 \f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 \f460 \f460 \f460 \f460 \f460 ";
+	}
+	.menu-dropdown .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu .sub-menu li a:before{
+		content:"\f460 \f460 \f460 \f460 \f460 \f460 \f460 \f460 \f460 ";
+	}
+}
+
+
+
+/* === #03 - ENTRY === */
+@media screen and (max-width: 450px) {
+	.entry-byline .entry-author{
+		display: block;
+	}
+	.entry-content .alignleft,
+	.entry-content .alignright{
+		max-width: 50%;
+	}
+}
+
+/* === #04 - COMMENTS === */
+@media screen and (max-width: 700px) {
+	#respond .comment-form-author,
+	#respond .comment-form-email,
+	#respond .comment-form-url{
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+	#respond #submit{
+		float: none;
+	}
+}
+
+/* === #05 - RESIZE === */
+@media screen and (max-width: 700px) {
+	html{
+		font-size: 55%;
+	}
+}

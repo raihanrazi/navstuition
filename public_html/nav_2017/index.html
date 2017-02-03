@@ -23,6 +23,9 @@
         <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="js/unslider/dist/css/unslider.css">
+        <link rel="stylesheet" href="js/unslider/dist/css/unslider-dots.css">
+
         <link rel="stylesheet" type="text/css" href="js/jquery/themes/base/jquery.ui.all.css" />
         <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
         <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -199,13 +202,50 @@
             </div>
 		</div>
         <div id="testimonials_main" class="section_container">
-            <div class="mesh">
-                <div class="section_div">
-                    <p class="main_testimonial_text">
-                    I am very grateful for the tutors at Nav's Tuitions who helped me to understand key concepts as well as boosting my confidence in VCE Maths Methods.<br><br>
-                    <i>Padmin, VCE Student</i>
-                    </p>
-                </div>
+            <div class="mesh my-slider">
+
+                  <ul>
+                    <li>
+                      <div class="section_div">
+                          <p class="main_testimonial_text">
+                          I am very grateful for the tutors at Nav's Tuitions who helped me to understand key concepts as well as boosting my confidence in VCE Maths Methods.<br><br>
+                          <i>Padmin, VCE Student</i>
+                          </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="section_div">
+                          <p class="main_testimonial_text">
+                          The teachers and students have all been friendly and always looked out for me which made Navs Tuitions a comfortable place where I could study.<br><br>
+                          <i>Yamin Siddique, Dandenong High School</i>
+                          </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="section_div">
+                          <p class="main_testimonial_text">
+                            Tutoring here has enabled me to build up my confidence in my knowledge and school work, as well as refining the areas of study that I struggled to grasp to concepts for<br><br>
+                          <i>Tiffany Romero, Killester Secondary College</i>
+                          </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="section_div">
+                          <p class="main_testimonial_text">
+                            Nav’s tutoring has given me the confidence on doing well in my schooling and highly recommend it to the public<br><br>
+                          <i>Le Andre DuToit, Rowviller Secondary College</i>
+                          </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="section_div">
+                          <p class="main_testimonial_text">
+                            Nav's tutoring was very helpful throughout year 12. Whenever I was stuck or needed help on something I could always ask for help and he would always make time to help. <br><br>
+                          <i>Walid, Sirius College</i>
+                          </p>
+                      </div>
+                    </li>
+                  </ul>
             </div>
 		</div>
         <div id="faq" class="section_container">
@@ -293,11 +333,27 @@
 			</div>
             <div id="main_footer">
                 <div class="section_div">
-                    <p>Copyright 2016 Nav's Tuitions. &nbsp;&nbsp; <a href="https://www.facebook.com/navstuition" target="_blank" class="footer_links">Facebook</a></p>
+                    <p>Copyright 2017 Nav's Tuitions. &nbsp;&nbsp; <a href="https://www.facebook.com/navstuition" target="_blank" class="footer_links">Facebook</a></p>
                 </div>
             </div>
         </div>
         <script type="text/javascript" src="js/config.js"></script>
         <script type="text/javascript" src="js/require.js" async data-main="index"></script>
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous">
+        </script>
+
+	      <script src="js/unslider/src/js/unslider.js"></script>
+        <script>
+		        jQuery(document).ready(function($) {
+			           $('.my-slider').unslider({
+                   autoplay: true,
+                   delay: 5500,
+                   infinite: true
+                 });
+		             });
+	      </script>
     </body>
 </html>
